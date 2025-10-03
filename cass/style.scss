@@ -1,0 +1,138 @@
+$padding: 0px;
+$margin: 0px;
+$box-size: border-box;
+$font: arial;
+$hieght: 50vh;
+$color1: #f2f2f2;
+$text: center;
+$pic-positoin: center;
+$pic-size: cover;
+$pic-repeit: no-repeat;
+$bg-learn-color: #0071e3;
+$btn-color: #0071e3;
+$btn-color2: #f2f2f2;
+$btn-padding: 15px;
+$h2: xx-large;
+$p: x-large;
+$color-main-footer: black;
+$text-btn: none;
+$h2-padding: 5vh;
+$border-resuz: 25px;
+$btn-padiing-top: 5vh;
+$padding-btn: 10px;
+$all-pic-margin: 15px;
+$h2-padding-pic3:2vh;
+* {
+    padding: $padding;
+    margin: $margin;
+    box-sizing: $box-size;
+    font-family: $font;
+}
+
+header {
+    background-image: url(../imge/1.jpg);
+    background-position: $pic-positoin ;
+    background-repeat: $pic-repeit;
+    background-size: $pic-size;
+    height: $hieght;
+    color: $color1;
+    text-align: $text;
+
+    h2 {
+        padding-top: $h2-padding;
+        font-size: $h2;
+    }
+
+    p {
+        font-size: $p;
+    }
+
+    section {
+        padding-top: $btn-padiing-top;
+
+        a {
+            text-decoration: $text-btn;
+            margin-left: $btn-padding;
+        }
+
+        .learn {
+            background-color: $bg-learn-color;
+            color: $btn-color2;
+            padding: $btn-padding;
+            border-radius: $border-resuz;
+        }
+
+        .buy {
+            border: .5px solid #0071e3;
+            color: $btn-color;
+            padding: $btn-padding;
+            border-radius: $border-resuz;
+        }
+
+        .buy:hover {
+            background-color: $btn-color;
+            color: $btn-color2;
+            transition: all .5s ease;
+        }
+
+    }
+}
+
+main , footer {
+    background-image: url(../imge/2.jpg);
+    background-position: $pic-positoin ;
+    background-repeat: $pic-repeit;
+    background-size: $pic-size;
+    height: $hieght;
+    color: $color1;
+    text-align: $text;
+    margin-top: $all-pic-margin;
+
+    h2 {
+        padding-top: $h2-padding;
+        font-size: $h2;
+        color: $color-main-footer;
+    }
+
+    p {
+        font-size: $p;
+        color: $color-main-footer;
+    }
+
+    section {
+        padding-top: $btn-padiing-top;
+
+        a {
+            text-decoration: $text-btn;
+            margin-left: $btn-padding;
+        }
+
+        .learn {
+            background-color: $bg-learn-color;
+            color: $btn-color2;
+            padding: $btn-padding;
+            border-radius: $border-resuz;
+        }
+
+        .buy {
+            border: .5px solid #0071e3;
+            color: $btn-color;
+            padding: $btn-padding;
+            border-radius: $border-resuz;
+        }
+
+        .buy:hover {
+            background-color: $btn-color;
+            color: $btn-color2;
+            transition: all .5s ease;
+        }
+    }
+}
+
+ footer {
+
+    background-image: url(../imge/3.jpg); 
+    h2{
+         padding-top: $h2-padding-pic3;
+    }
+}
